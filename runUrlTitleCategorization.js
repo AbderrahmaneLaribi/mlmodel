@@ -1,4 +1,4 @@
-function runUrlTitleClassification(urlString, titleString) {
+module.exports = function runUrlTitleClassification(context, urlString, titleString) {
     // preprocess url
     urlString = preprocessUrl(urlString);
     // preprocess title
